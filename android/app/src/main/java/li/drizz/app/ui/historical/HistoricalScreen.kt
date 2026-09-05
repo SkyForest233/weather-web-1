@@ -316,7 +316,7 @@ private fun ArchiveModelField(current: String, onSet: (String) -> Unit) {
             trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
             modifier = Modifier.menuAnchor().fillMaxWidth()
         )
-        androidx.compose.material3.ExposedDropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
+        ExposedDropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
             ModelCatalog.archiveGroups.forEach { group ->
                 DropdownMenuItem(
                     text = { Text(group.label, style = MaterialTheme.typography.labelSmall) },

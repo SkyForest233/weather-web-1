@@ -1,5 +1,7 @@
 # Drizz for Android — drizz.li 的原生 Android 移植
 
+[![Build Android APK](https://github.com/SkyForest233/weather-web-1/actions/workflows/android-build.yml/badge.svg)](https://github.com/SkyForest233/weather-web-1/actions/workflows/android-build.yml)
+
 [drizz.li](https://drizz.li/)([open-meteo/drizz.li](https://github.com/open-meteo/drizz.li),AGPL-3.0)是
 Open-Meteo 官方的"快、免费、不废话"天气网站。本项目把它**完整移植为原生 Android 应用**:
 
@@ -22,7 +24,13 @@ Open-Meteo 官方的"快、免费、不废话"天气网站。本项目把它**�
 
 ## 构建
 
-要求:JDK 17+,Android SDK 35(或直接用 Android Studio 打开 `android/`)。
+**不需要电脑**：仓库的 GitHub Actions 会自动构建 APK。
+
+- **自动构建**：每次推送后，Actions 页面会自动出包；
+- **手动构建**：GitHub 网页 → **Actions** 标签 → 选 **Build Android APK** → **Run workflow**（可勾选 *Create release* 直接发布到 Releases）；
+- **下载安装**：构建完成后进入该次运行，从 **Artifacts** 下载 `Drizz-debug-APK`（zip 内含 apk），或在 **Releases** 页面直接下载 `.apk`，手机上点开安装（允许"未知来源"）。
+
+本地/电脑构建（可选）：
 
 ```bash
 cd android

@@ -47,6 +47,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import li.drizz.app.R
 import li.drizz.app.data.settings.Settings
@@ -77,8 +78,7 @@ fun AppRoot(settings: Settings) {
     var settingsOpen by rememberSaveable { mutableStateOf(false) }
     var moreOpen by rememberSaveable { mutableStateOf(false) }
 
-    var backStackEntry by remember { mutableStateOf(navController.currentBackStackEntry) }
-    navController.addOnDestinationChangedListener { _, entry, _ -> backStackEntry = entry }
+    val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
     val currentPage = Page.of(currentRoute) ?: Page.WEEK
 
