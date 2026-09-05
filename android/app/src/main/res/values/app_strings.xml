@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App-only strings (not part of the drizz.li message port). -->
+<resources>
+    <string name="app_name" formatted="false">Drizz</string>
+    <string name="legend_members" formatted="false">Members</string>
+    <string name="setting_dynamic_color" formatted="false">Dynamic color (Material You)</string>
+    <string name="setting_language_note" formatted="false">The app follows the system language (English, German, Spanish, French, Italian).</string>
+    <string name="about_title" formatted="false">About</string>
+    <string name="about_body" formatted="false">A native Android port of drizz.li — fast, free, no-nonsense weather forecasts built on open data. Forecasts are fetched directly from the Open-Meteo APIs; no accounts, no ads, no tracking.</string>
+    <string name="open_in_browser" formatted="false">Open in browser</string>
+    <string name="maps_hint" formatted="false">Interactive forecast maps by Open-Meteo. Pick layers, models and times inside the map.</string>
+    <string name="member_count_label" formatted="false">%1$d members</string>
+</resources>

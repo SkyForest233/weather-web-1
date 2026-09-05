@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- The cities dataset is bundled; only user settings/locations back up. -->
+    <exclude domain="file" path="datastore/.*\.tmp" />
+</full-backup-content>

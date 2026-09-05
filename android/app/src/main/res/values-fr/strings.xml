@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto-generated from drizz.li messages/fr.json – do not edit by hand. -->
+<resources>
+    <string name="nav_week" formatted="false">Prévisions hebdomadaires</string>
+    <string name="nav_compare" formatted="false">Comparaison des modèles</string>
+    <string name="nav_14day" formatted="false">Prévisions à 14 jours</string>
+    <string name="nav_seasonal" formatted="false">Saisonnier</string>
+    <string name="nav_historical" formatted="false">Historique</string>
+    <string name="nav_maps" formatted="false">Cartes</string>
+    <string name="nav_forecast" formatted="false">Prévisions</string>
+    <string name="nav_14day_short" formatted="false">14 jours</string>
+    <string name="nav_compare_short" formatted="false">Comparer</string>
+    <string name="nav_more" formatted="false">Plus</string>
+    <string name="mobile_navigation" formatted="false">Navigation principale</string>
+    <string name="nav_collapse" formatted="false">Réduire</string>
+    <string name="nav_expand_sidebar" formatted="false">Déployer la barre latérale</string>
+    <string name="nav_collapse_sidebar" formatted="false">Réduire la barre latérale</string>
+    <string name="nav_home" formatted="false">Accueil Drizzli</string>
+    <string name="nav_toggle_menu" formatted="false">Basculer le menu</string>
+    <string name="search_placeholder" formatted="false">Rechercher un lieu…</string>
+    <string name="settings_title" formatted="false">Paramètres</string>
+    <string name="units_title" formatted="false">Unités</string>
+    <string name="units_aria" formatted="false">Choisir les unités de mesure</string>
+    <string name="unit_temperature" formatted="false">Température</string>
+    <string name="unit_wind_speed" formatted="false">Vitesse du vent</string>
+    <string name="unit_precipitation" formatted="false">Précipitations</string>
+    <string name="theme_label" formatted="false">Thème</string>
+    <string name="theme_system" formatted="false">Système</string>
+    <string name="theme_light" formatted="false">Clair</string>
+    <string name="theme_dark" formatted="false">Sombre</string>
+    <string name="theme_follow_system" formatted="false">Thème : suivre le système</string>
+    <string name="theme_light_title" formatted="false">Thème : clair</string>
+    <string name="theme_dark_title" formatted="false">Thème : sombre</string>
+    <string name="language_label" formatted="false">Langue</string>
+    <string name="strip_past_label" formatted="false">avant</string>
+    <string name="strip_past_aria" formatted="false">Charger les 3 derniers jours</string>
+    <string name="strip_days_label" formatted="false">jours</string>
+    <string name="strip_extend_aria" formatted="false">Afficher les 15 jours complets</string>
+    <string name="strip_history_label" formatted="false">archives</string>
+    <string name="strip_history_aria" formatted="false">Ouvrir les archives météo</string>
+    <string name="strip_history_title" formatted="false">Historique : toute date depuis 1940</string>
+    <string name="strip_seasonal_label" formatted="false">saisonnier</string>
+    <string name="strip_seasonal_aria" formatted="false">Ouvrir les tendances saisonnières</string>
+    <string name="strip_seasonal_title" formatted="false">Tendances saisonnières : les mois à venir</string>
+    <string name="strip_warn_title" formatted="false">Météo notable attendue</string>
+    <string name="strip_severe_title" formatted="false">Météo dangereuse attendue</string>
+    <string name="strip_warn_gusts">Rafales jusqu\'à %1$s</string>
+    <string name="strip_warn_precip">Précipitations jusqu\'à %1$s</string>
+    <string name="strip_warn_heat">Maximales jusqu\'à %1$s</string>
+    <string name="strip_warn_cold">Minimales jusqu\'à %1$s</string>
+    <string name="day_today" formatted="false">Aujourd\'hui</string>
+    <string name="day_tomorrow" formatted="false">Demain</string>
+    <string name="day_yesterday" formatted="false">Hier</string>
+    <string name="page_week_subtitle" formatted="false">Prévisions hebdomadaires</string>
+    <string name="page_compare_subtitle" formatted="false">Comparaison des modèles</string>
+    <string name="page_14day_subtitle" formatted="false">Prévision d\'ensemble à 14 jours</string>
+    <string name="page_seasonal_subtitle" formatted="false">Tendances saisonnières</string>
+    <string name="page_historical_subtitle" formatted="false">Météo historique</string>
+    <string name="hourly_heading" formatted="false">par heure</string>
+    <string name="hourly_variables" formatted="false">Variables</string>
+    <string name="meteograms_heading" formatted="false">Météogrammes</string>
+    <string name="meteograms_customize" formatted="false">Personnaliser</string>
+    <string name="meteograms_zoom_hint" formatted="false">glissez ou</string>
+    <string name="meteograms_zoom_hint_end" formatted="false">+ défiler pour zoomer</string>
+    <string name="range_today" formatted="false">Aujourd\'hui</string>
+    <string name="range_selected_day" formatted="false">Jour sélectionné</string>
+    <string name="range_3_days" formatted="false">3 jours</string>
+    <string name="range_5_days" formatted="false">5 jours</string>
+    <string name="range_all" formatted="false">Tout</string>
+    <string name="range_group_aria" formatted="false">Plage horaire du graphique</string>
+    <string name="reset_zoom" formatted="false">Réinitialiser le zoom</string>
+    <string name="default_range_title" formatted="false">Plage horaire par défaut</string>
+    <string name="default_range_auto" formatted="false">Auto</string>
+    <string name="default_range_auto_hint" formatted="false">3 jours sur mobile, tout sur grand écran</string>
+    <string name="summary_heading" formatted="false">en résumé</string>
+    <string name="summary_no_data" formatted="false">Aucun détail horaire pour ce jour.</string>
+    <string name="label_sunrise" formatted="false">Lever du soleil</string>
+    <string name="label_sunset" formatted="false">Coucher du soleil</string>
+    <string name="label_daylight" formatted="false">Durée du jour</string>
+    <string name="label_uv_index" formatted="false">Indice UV</string>
+    <string name="label_moonrise" formatted="false">Lever de la lune</string>
+    <string name="label_moonset" formatted="false">Coucher de la lune</string>
+    <string name="label_moon" formatted="false">Lune</string>
+    <string name="daylight_hours">%1$s h %2$s min</string>
+    <string name="sunshine_share">%1$s% de soleil</string>
+    <string name="uv_low" formatted="false">Faible</string>
+    <string name="uv_moderate" formatted="false">Modéré</string>
+    <string name="uv_high" formatted="false">Élevé</string>
+    <string name="uv_very_high" formatted="false">Très élevé</string>
+    <string name="uv_extreme" formatted="false">Extrême</string>
+    <string name="moon_new" formatted="false">Nouvelle lune</string>
+    <string name="moon_waxing_crescent" formatted="false">Premier croissant</string>
+    <string name="moon_first_quarter" formatted="false">Premier quartier</string>
+    <string name="moon_waxing_gibbous" formatted="false">Gibbeuse croissante</string>
+    <string name="moon_full" formatted="false">Pleine lune</string>
+    <string name="moon_waning_gibbous" formatted="false">Gibbeuse décroissante</string>
+    <string name="moon_last_quarter" formatted="false">Dernier quartier</string>
+    <string name="moon_waning_crescent" formatted="false">Dernier croissant</string>
+    <string name="cond_clear" formatted="false">dégagé</string>
+    <string name="cond_fair" formatted="false">partiellement nuageux</string>
+    <string name="cond_cloudy" formatted="false">couvert</string>
+    <string name="cond_fog" formatted="false">brumeux</string>
+    <string name="cond_drizzle" formatted="false">bruineux</string>
+    <string name="cond_rain" formatted="false">pluvieux</string>
+    <string name="cond_snow" formatted="false">neigeux</string>
+    <string name="cond_thunder" formatted="false">orageux</string>
+    <string name="period_overnight" formatted="false">la nuit</string>
+    <string name="period_morning" formatted="false">le matin</string>
+    <string name="period_afternoon" formatted="false">l\'après-midi</string>
+    <string name="period_evening" formatted="false">en soirée</string>
+    <string name="footer_tagline" formatted="false">Des prévisions météo rapides et sans fioritures, basées sur des données ouvertes.</string>
+    <string name="footer_data_by" formatted="false">Données météo par</string>
+    <string name="footer_forecasts" formatted="false">Prévisions</string>
+    <string name="footer_popular" formatted="false">Lieux populaires</string>
+    <string name="footer_about_section" formatted="false">À propos</string>
+    <string name="model_weather" formatted="false">Modèle météo</string>
+    <string name="model_ensemble" formatted="false">Modèle d\'ensemble</string>
+    <string name="sky_all_1">%1$s toute la journée.</string>
+    <string name="sky_all_2">Une journée %1$s du matin au soir.</string>
+    <string name="sky_all_3">Le ciel reste %1$s tout du long.</string>
+    <string name="sky_two_1">%1$s %2$s, puis %3$s %4$s.</string>
+    <string name="sky_two_2">La journée débute %1$s %2$s avant de devenir %3$s %4$s.</string>
+    <string name="sky_two_3">Ciel %1$s %2$s, puis %3$s %4$s.</string>
+    <string name="sky_three_1">%1$s %2$s, puis %3$s %4$s et enfin %5$s %6$s.</string>
+    <string name="sky_three_2">Le ciel est %1$s %2$s, devient %3$s %4$s et finit %5$s %6$s.</string>
+    <string name="sky_three_3">D\'un ciel %1$s %2$s à %3$s %4$s, avant de rester %5$s %6$s.</string>
+    <string name="temp_1">Maximales proches de %1$s, minimales de %2$s la nuit.</string>
+    <string name="temp_2">Les températures montent à %1$s et retombent à %2$s après la tombée de la nuit.</string>
+    <string name="temp_3">Entre %1$s et %2$s au fil de la journée.</string>
+    <string name="temp_feels_1">Maximales proches de %1$s, minimales de %2$s, mais ressenti plutôt %3$s.</string>
+    <string name="temp_feels_2">Jusqu\'à %1$s au thermomètre, ressenti %2$s, avant de redescendre à %3$s.</string>
+    <string name="temp_feels_3">Il fera %1$s mais on ressentira %2$s, avec %3$s plus tard.</string>
+    <string name="precip_window_1">Environ %1$s de précipitations, surtout %2$s.</string>
+    <string name="precip_window_2">Comptez environ %1$s, concentrés %2$s.</string>
+    <string name="precip_window_3">Le passage le plus humide se situe %1$s, pour environ %2$s au total.</string>
+    <string name="precip_spread_1">Environ %1$s de précipitations réparties sur la journée.</string>
+    <string name="precip_spread_2">Environ %1$s tombent par intermittence au cours de la journée.</string>
+    <string name="precip_spread_3">Des averses vont et viennent, pour un total d\'environ %1$s.</string>
+    <string name="precip_chance_1">Temps plutôt sec, avec jusqu\'à %1$s% de risque d\'averse.</string>
+    <string name="precip_chance_2">Peu de pluie attendue, mais %1$s% de risque d\'une averse passagère.</string>
+    <string name="precip_chance_3">%1$s% de risque d\'averse, rien qui justifie un parapluie.</string>
+    <string name="precip_dry_1" formatted="false">Le temps reste sec toute la journée.</string>
+    <string name="precip_dry_2" formatted="false">Pas une goutte attendue.</string>
+    <string name="precip_dry_3" formatted="false">Sec du début à la fin.</string>
+    <string name="wind_dir_1">Vent de secteur %1$s atteignant %2$s.</string>
+    <string name="wind_dir_2">Une brise de secteur %1$s culmine à %2$s.</string>
+    <string name="wind_dir_3">Le vent s\'oriente au secteur %1$s, avec des pointes proches de %2$s.</string>
+    <string name="wind_dir_gusts_1">Vent de secteur %1$s atteignant %2$s, avec des rafales à %3$s.</string>
+    <string name="wind_dir_gusts_2">Un vent de secteur %1$s de %2$s, avec des rafales jusqu\'à %3$s.</string>
+    <string name="wind_dir_gusts_3">Attendez-vous à %1$s de secteur %2$s, avec des rafales de %3$s par moments.</string>
+    <string name="wind_1">Vent atteignant %1$s.</string>
+    <string name="wind_2">La brise culmine autour de %1$s.</string>
+    <string name="wind_3">Un vent allant jusqu\'à %1$s.</string>
+    <string name="wind_gusts_1">Vent atteignant %1$s, avec des rafales à %2$s.</string>
+    <string name="wind_gusts_2">Jusqu\'à %1$s, avec des rafales atteignant %2$s.</string>
+    <string name="wind_gusts_3">Une journée à rafales : %1$s en continu, %2$s en pointe.</string>
+    <string name="calm_1" formatted="false">Pratiquement pas de vent.</string>
+    <string name="calm_2" formatted="false">L\'air reste quasiment immobile.</string>
+    <string name="calm_3" formatted="false">Quasiment aucun vent de la journée.</string>
+    <string name="uv_1">Indice UV jusqu\'à %1$s (%2$s) : protégez-vous en milieu de journée.</string>
+    <string name="uv_2">Le soleil tape à la mi-journée : UV %1$s, %2$s.</string>
+    <string name="uv_3">Mieux vaut chercher l\'ombre à midi : l\'UV atteint %1$s (%2$s).</string>
+    <string name="legal_about" formatted="false">À propos</string>
+    <string name="legal_imprint" formatted="false">Mentions légales</string>
+    <string name="legal_privacy" formatted="false">Confidentialité</string>
+    <string name="city_weather">Météo à %1$s</string>
+    <string name="var_temperature" formatted="false">Température</string>
+    <string name="var_temperature_short" formatted="false">Temp</string>
+    <string name="var_icons" formatted="false">Icônes météo</string>
+    <string name="var_icons_short" formatted="false">Icônes</string>
+    <string name="var_apparent" formatted="false">Ressenti</string>
+    <string name="var_apparent_short" formatted="false">Ressenti</string>
+    <string name="var_dew_point" formatted="false">Point de rosée</string>
+    <string name="var_dew_point_short" formatted="false">Rosée</string>
+    <string name="var_cloud" formatted="false">Nébulosité</string>
+    <string name="var_cloud_short" formatted="false">Nuages</string>
+    <string name="var_cloud_low" formatted="false">Nébulosité basse</string>
+    <string name="var_cloud_low_short" formatted="false">Basse</string>
+    <string name="var_cloud_mid" formatted="false">Nébulosité moyenne</string>
+    <string name="var_cloud_mid_short" formatted="false">Moyenne</string>
+    <string name="var_cloud_high" formatted="false">Nébulosité haute</string>
+    <string name="var_cloud_high_short" formatted="false">Haute</string>
+    <string name="var_precipitation" formatted="false">Précipitations</string>
+    <string name="var_precipitation_short" formatted="false">Précip.</string>
+    <string name="var_pop" formatted="false">Probabilité de précip.</string>
+    <string name="var_pop_short" formatted="false">Prob.</string>
+    <string name="var_rain" formatted="false">Pluie</string>
+    <string name="var_rain_short" formatted="false">Pluie</string>
+    <string name="var_showers" formatted="false">Averses</string>
+    <string name="var_showers_short" formatted="false">Averses</string>
+    <string name="var_snowfall" formatted="false">Chutes de neige</string>
+    <string name="var_snowfall_short" formatted="false">Neige</string>
+    <string name="var_wind" formatted="false">Vitesse du vent</string>
+    <string name="var_wind_short" formatted="false">Vent</string>
+    <string name="var_wind_dir" formatted="false">Direction du vent</string>
+    <string name="var_wind_dir_short" formatted="false">Dir.</string>
+    <string name="var_gusts" formatted="false">Rafales</string>
+    <string name="var_gusts_short" formatted="false">Rafales</string>
+    <string name="var_humidity" formatted="false">Humidité</string>
+    <string name="var_humidity_short" formatted="false">HR</string>
+    <string name="var_pressure" formatted="false">Pression (MSL)</string>
+    <string name="var_pressure_short" formatted="false">MSLP</string>
+    <string name="var_surface_pressure" formatted="false">Pression au sol</string>
+    <string name="var_surface_pressure_short" formatted="false">Psfc</string>
+    <string name="var_uv" formatted="false">Indice UV</string>
+    <string name="var_uv_short" formatted="false">UV</string>
+    <string name="var_visibility" formatted="false">Visibilité</string>
+    <string name="var_visibility_short" formatted="false">Vis.</string>
+    <string name="var_cape" formatted="false">CAPE</string>
+    <string name="var_cape_short" formatted="false">CAPE</string>
+    <string name="var_time" formatted="false">Heure</string>
+    <string name="no_data_title" formatted="false">Ce modèle n\'a pas de données ici</string>
+    <string name="no_data_body">Le modèle sélectionné ne couvre pas %1$s : les modèles régionaux ne fournissent des données que dans leur propre zone.</string>
+    <string name="no_data_try_city">Changer de lieu pour %1$s</string>
+    <string name="no_data_best_match" formatted="false">Passer à « Best match »</string>
+    <string name="model_archive" formatted="false">Réanalyse</string>
+    <string name="model_seasonal" formatted="false">Modèle saisonnier</string>
+    <string name="nearby_cities_title" formatted="false">Villes à proximité</string>
+    <string name="nearby_cities_subtitle" formatted="false">Maximales et minimales du jour sélectionné</string>
+    <string name="nearby_cities_collapsed" formatted="false">Non chargées - aucune donnée n\'est demandée tant que la section est repliée</string>
+    <string name="nearby_cities_toggle" formatted="false">Afficher ou masquer les villes à proximité</string>
+    <string name="action_close" formatted="false">Fermer</string>
+    <string name="action_done" formatted="false">Terminé</string>
+    <string name="action_try_again" formatted="false">Réessayer</string>
+    <string name="action_reset_defaults" formatted="false">Rétablir les valeurs par défaut</string>
+    <string name="customize_meteograms" formatted="false">Personnaliser les météogrammes</string>
+    <string name="customizer_intro" formatted="false">Faites glisser les variables d\'un graphique à l\'autre pour composer votre mise en page.</string>
+    <string name="customizer_chart_n">Graphique %1$s</string>
+    <string name="customizer_delete_chart">Supprimer le graphique %1$s</string>
+    <string name="customizer_add_chart" formatted="false">+ Ajouter un graphique</string>
+    <string name="customizer_available" formatted="false">Variables disponibles</string>
+    <string name="customizer_drag">Déplacer %1$s</string>
+    <string name="customizer_remove">Retirer %1$s</string>
+    <string name="customizer_drop_here" formatted="false">Déposez des variables ici</string>
+    <string name="customizer_all_in_use" formatted="false">Toutes les variables sont utilisées</string>
+    <string name="variables_aria" formatted="false">Sélection des variables</string>
+    <string name="variables_close" formatted="false">Fermer la sélection des variables</string>
+    <string name="variables_table_section" formatted="false">Tableau horaire</string>
+    <string name="variables_move_up">Déplacer %1$s vers le haut</string>
+    <string name="variables_move_down">Déplacer %1$s vers le bas</string>
+    <string name="variables_charts_hint_before" formatted="false">Les variables des météogrammes se règlent avec le bouton</string>
+    <string name="variables_charts_hint_after" formatted="false">au-dessus des graphiques.</string>
+    <string name="table_customize" formatted="false">Personnaliser les variables</string>
+    <string name="table_interval_aria" formatted="false">Intervalle horaire</string>
+    <string name="table_now" formatted="false">Maintenant</string>
+    <string name="interval_toggle" formatted="false">Basculer entre les intervalles de 1 h et 3 h</string>
+    <string name="page_loading" formatted="false">Chargement…</string>
+    <string name="page_loading_dismiss" formatted="false">Fermer</string>
+    <string name="charts_loading" formatted="false">Chargement des graphiques…</string>
+    <string name="chart_download" formatted="false">Télécharger le météogramme en PNG</string>
+    <string name="chart_credit_viz" formatted="false">visualisation par</string>
+    <string name="chart_toggle_series">Afficher ou masquer %1$s</string>
+    <string name="legend_show" formatted="false">Afficher la légende</string>
+    <string name="meteograms_none_before" formatted="false">Aucun météogramme configuré,</string>
+    <string name="meteograms_none_action" formatted="false">ajoutez des variables</string>
+    <string name="meteograms_none_historical" formatted="false">Aucun météogramme configuré. Ajoutez des variables depuis la page des prévisions hebdomadaires.</string>
+    <string name="search_searching" formatted="false">Recherche…</string>
+    <string name="search_favorites" formatted="false">Favoris</string>
+    <string name="search_recent" formatted="false">Récents</string>
+    <string name="search_hint" formatted="false">Commencez à taper ou utilisez le GPS pour détecter votre position</string>
+    <string name="search_no_results" formatted="false">Aucun lieu trouvé</string>
+    <string name="search_remove_recent">Retirer %1$s des lieux récents</string>
+    <string name="search_remove_recent_short" formatted="false">Retirer des récents</string>
+    <string name="search_aria" formatted="false">Rechercher un lieu</string>
+    <string name="search_gps" formatted="false">Utiliser la position GPS</string>
+    <string name="model_automatic_selection" formatted="false">Sélection automatique</string>
+    <string name="model_selector_aria">Sélection : %1$s</string>
+    <string name="compare_models_heading" formatted="false">Modèles</string>
+    <string name="compare_models_choose" formatted="false">Choisir les modèles à comparer</string>
+    <string name="compare_variables_heading" formatted="false">Variables météo horaires</string>
+    <string name="compare_standard_preset" formatted="false">Comparaison standard</string>
+    <string name="compare_weather_conditions" formatted="false">Conditions & couverture nuageuse</string>
+    <string name="compare_wind_direction_height">Direction du vent à %1$s m</string>
+    <string name="compare_standard_preset_description" formatted="false">Un point de départ équilibré pour comparer les modèles de prévision.</string>
+    <string name="compare_preset_active" formatted="false">Active</string>
+    <string name="compare_custom_selection">Personnalisée · %1$s sélectionnées</string>
+    <string name="compare_customize_variables" formatted="false">Personnaliser les variables</string>
+    <string name="compare_restore_defaults" formatted="false">Rétablir la sélection standard</string>
+    <string name="compare_variables_pending" formatted="false">Sélection des variables modifiée</string>
+    <string name="compare_selected_models" formatted="false">Modèles sélectionnés</string>
+    <string name="compare_selection_pending" formatted="false">Sélection modifiée</string>
+    <string name="compare_apply_selection" formatted="false">Appliquer et recharger les graphiques</string>
+    <string name="compare_discard_changes" formatted="false">Annuler les modifications</string>
+    <string name="compare_customize_models" formatted="false">Personnaliser les modèles</string>
+    <string name="compare_edit_models" formatted="false">Modifier les modèles</string>
+    <string name="compare_edit_variables" formatted="false">Modifier les variables</string>
+    <string name="compare_edit_models_description" formatted="false">Recherchez des modèles ou sélectionnez des fournisseurs entiers.</string>
+    <string name="compare_edit_variables_description" formatted="false">Recherchez des variables ou sélectionnez des groupes thématiques entiers.</string>
+    <string name="compare_search_models" formatted="false">Rechercher des modèles</string>
+    <string name="compare_search_variables" formatted="false">Rechercher des variables</string>
+    <string name="compare_show_model_names" formatted="false">Afficher les noms des modèles</string>
+    <string name="compare_hide_model_names" formatted="false">Masquer les noms des modèles</string>
+    <string name="compare_only_selected" formatted="false">Sélection uniquement</string>
+    <string name="compare_select_group" formatted="false">Tout sélectionner</string>
+    <string name="compare_clear_group" formatted="false">Tout désélectionner</string>
+    <string name="compare_no_matching_options" formatted="false">Aucune option correspondante.</string>
+    <string name="compare_no_models_selected" formatted="false">Aucun modèle sélectionné.</string>
+    <string name="compare_remove_model">Supprimer %1$s</string>
+    <string name="compare_timeline_title" formatted="false">Chronologie de comparaison des modèles</string>
+    <string name="compare_model_label" formatted="false">Modèle</string>
+    <string name="page_compare_title" formatted="false">Comparaison des modèles météo</string>
+    <string name="page_compare_description" formatted="false">Comparez les prévisions horaires de plusieurs modèles météo pour n’importe quel lieu.</string>
+    <string name="compare_direction_subtitle">Dispersion des directions sur %1$s modèles · sans moyenne</string>
+    <string name="compare_scalar_subtitle">Sur %1$s modèles · pointillés = moyenne des modèles</string>
+    <string name="compare_precipitation_subtitle">Sur %1$s modèles · bande inférieure = accord sur les précipitations</string>
+    <string name="compare_precipitation_agreement" formatted="false">Accord</string>
+    <string name="compare_precipitation_agreement_tooltip">%1$s/%2$s avec précipitations · médiane %3$s %4$s · plage %5$s–%6$s %7$s</string>
+    <string name="compare_model_mean" formatted="false">Moyenne des modèles</string>
+    <string name="compare_showing_previous" formatted="false">La dernière comparaison réussie reste affichée.</string>
+    <string name="compare_empty_selection" formatted="false">Sélectionnez au moins un modèle et une variable météo.</string>
+    <string name="compare_no_data" formatted="false">Aucun des modèles sélectionnés ne fournit de données exploitables pour ce lieu et cette sélection.</string>
+    <string name="compare_weather_codes_only" formatted="false">Les conditions et la couverture nuageuse sont affichées dans la chronologie ci-dessous. Sélectionnez une autre variable pour ajouter un graphique.</string>
+    <string name="compare_model_colors" formatted="false">Couleurs des modèles</string>
+    <string name="compare_group_temperature" formatted="false">Température et humidité</string>
+    <string name="compare_group_precipitation" formatted="false">Précipitations et conditions</string>
+    <string name="compare_group_clouds" formatted="false">Pression et nuages</string>
+    <string name="compare_group_wind" formatted="false">Vent et atmosphère</string>
+    <string name="compare_group_upper_air" formatted="false">Température en altitude</string>
+    <string name="compare_many_models_warning">%1$s modèles sont sélectionnés. La comparaison peut être plus lente et les couleurs plus difficiles à distinguer.</string>
+    <string name="compare_timeline_hint" formatted="false">Conditions par modèle ; le fond des pictogrammes indique la couverture nuageuse totale</string>
+    <string name="compare_timeline_scroll_aria" formatted="false">Chronologie météo des modèles à défilement horizontal</string>
+    <string name="compare_timeline_caption" formatted="false">Conditions météo horaires par modèle de prévision</string>
+    <string name="ensemble_trimmed">L\'ensemble de ce modèle ne va qu\'à environ %1$s jours, la dispersion est donc limitée à sa portée disponible.</string>
+    <string name="seasonal_explainer_before" formatted="false">Une prévision saisonnière montre dans quelle mesure un mois entier devrait</string>
+    <string name="seasonal_explainer_strong" formatted="false">s\'écarter de sa normale climatique</string>
+    <string name="seasonal_explainer_after" formatted="false">- et non le temps qu\'il fera un jour donné. Lisez la tendance mensuelle et l\'accord de l\'ensemble, pas les variations quotidiennes.</string>
+    <string name="seasonal_runs_to">Cet aperçu va jusqu\'au %1$s.</string>
+    <string name="seasonal_range_aria" formatted="false">Période de l\'aperçu</string>
+    <string name="seasonal_no_normal" formatted="false">pas de normale pour ce mois</string>
+    <string name="normals_loading" formatted="false">chargement de la normale…</string>
+    <string name="normals_loading_period" formatted="false">chargement de la normale 1991–2020…</string>
+    <string name="normal_band_legend" formatted="false">bande normale = moyenne 1991–2020</string>
+    <string name="anomaly_vs_normal">%1$s par rapport à la normale</string>
+    <string name="stat_avg_temperature" formatted="false">Température moyenne</string>
+    <string name="stat_mean_temperature" formatted="false">Température moyenne</string>
+    <string name="stat_total_precipitation" formatted="false">Précipitations totales</string>
+    <string name="stat_warmest_day" formatted="false">Jour le plus chaud</string>
+    <string name="stat_coldest_day" formatted="false">Jour le plus froid</string>
+    <string name="historical_daily_heading" formatted="false">Quotidien</string>
+    <string name="historical_daily_hint" formatted="false">– sélectionnez un jour pour le détail horaire</string>
+    <string name="historical_full_range" formatted="false">– période complète</string>
+    <string name="historical_from" formatted="false">Du</string>
+    <string name="historical_to" formatted="false">Au</string>
+    <string name="historical_quick_ranges" formatted="false">Plages rapides</string>
+    <string name="historical_last_days">%1$s jours</string>
+    <string name="historical_month_last_year" formatted="false">Ce mois, l\'an dernier</string>
+    <string name="label_day" formatted="false">jour</string>
+    <string name="label_night" formatted="false">nuit</string>
+    <string name="daycards_past" formatted="false">3 jours passés</string>
+    <string name="daycards_load_15" formatted="false">Charger 15 jours</string>
+    <string name="error_technical_details" formatted="false">Détails techniques</string>
+    <string name="err_network_title" formatted="false">Service météo injoignable</string>
+    <string name="err_network_hint" formatted="false">Vérifiez votre connexion internet et réessayez.</string>
+    <string name="err_nodata_title" formatted="false">Aucune donnée pour ce lieu avec le modèle sélectionné</string>
+    <string name="err_nodata_hint" formatted="false">Les modèles régionaux ne couvrent que leur propre zone - \"Best match\" choisit automatiquement un modèle adapté.</string>
+    <string name="err_rejected_title" formatted="false">Le service météo a refusé la requête</string>
+    <string name="err_rejected_hint" formatted="false">Essayez d\'autres réglages ou revenez au modèle \"Best match\".</string>
+    <string name="err_generic_title" formatted="false">Le chargement des données météo a échoué</string>
+    <string name="err_generic_hint" formatted="false">Réessayez dans un instant. Si cela persiste, revenez au modèle \"Best match\".</string>
+    <string name="maps_iframe_title" formatted="false">Carte interactive Open-Meteo</string>
+    <string name="page_maps_title" formatted="false">Carte météo</string>
+    <string name="page_week_title" formatted="false">Météo</string>
+    <string name="search_favorite_add" formatted="false">Ajouter aux favoris</string>
+    <string name="search_favorite_remove" formatted="false">Retirer des favoris</string>
+    <string name="model_best_match_hint" formatted="false">Choisit automatiquement le meilleur modèle pour ce lieu</string>
+    <string name="model_updated">mis à jour %1$s</string>
+    <string name="cadence_every_hour" formatted="false">toutes les heures</string>
+    <string name="cadence_every_hours">toutes les %1$s h</string>
+    <string name="cadence_daily" formatted="false">chaque jour</string>
+    <string name="cadence_monthly" formatted="false">chaque mois</string>
+    <string name="cadence_varies" formatted="false">variable</string>
+    <string name="model_group_automatic" formatted="false">Automatique</string>
+    <string name="model_group_reanalysis" formatted="false">Réanalyse ECMWF</string>
+    <string name="model_group_regional_reanalysis" formatted="false">Réanalyse régionale</string>
+    <string name="wmo_0" formatted="false">Ciel dégagé</string>
+    <string name="wmo_1" formatted="false">Plutôt dégagé</string>
+    <string name="wmo_2" formatted="false">Partiellement nuageux</string>
+    <string name="wmo_3" formatted="false">Couvert</string>
+    <string name="wmo_45" formatted="false">Brouillard</string>
+    <string name="wmo_48" formatted="false">Brouillard givrant</string>
+    <string name="wmo_51" formatted="false">Bruine faible</string>
+    <string name="wmo_53" formatted="false">Bruine modérée</string>
+    <string name="wmo_55" formatted="false">Bruine dense</string>
+    <string name="wmo_56" formatted="false">Bruine verglaçante faible</string>
+    <string name="wmo_57" formatted="false">Bruine verglaçante dense</string>
+    <string name="wmo_61" formatted="false">Pluie faible</string>
+    <string name="wmo_63" formatted="false">Pluie modérée</string>
+    <string name="wmo_65" formatted="false">Pluie forte</string>
+    <string name="wmo_66" formatted="false">Pluie verglaçante faible</string>
+    <string name="wmo_67" formatted="false">Pluie verglaçante forte</string>
+    <string name="wmo_71" formatted="false">Neige faible</string>
+    <string name="wmo_73" formatted="false">Neige modérée</string>
+    <string name="wmo_75" formatted="false">Neige forte</string>
+    <string name="wmo_77" formatted="false">Grésil</string>
+    <string name="wmo_80" formatted="false">Averses faibles</string>
+    <string name="wmo_81" formatted="false">Averses modérées</string>
+    <string name="wmo_82" formatted="false">Averses violentes</string>
+    <string name="wmo_85" formatted="false">Averses de neige faibles</string>
+    <string name="wmo_86" formatted="false">Averses de neige fortes</string>
+    <string name="wmo_95" formatted="false">Orage</string>
+    <string name="wmo_96" formatted="false">Orage avec grêle légère</string>
+    <string name="wmo_97" formatted="false">Orage violent</string>
+    <string name="wmo_99" formatted="false">Orage avec forte grêle</string>
+    <string name="summary_read_more" formatted="false">Lire la suite</string>
+    <string name="summary_read_less" formatted="false">Afficher moins</string>
+    <string name="update_title" formatted="false">Drizzli a été mis à jour</string>
+    <string name="update_message" formatted="false">Une version plus récente est disponible.</string>
+    <string name="update_dismiss" formatted="false">Fermer la notification</string>
+</resources>

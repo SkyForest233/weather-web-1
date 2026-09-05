@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Drizz.li favicon art: raindrops falling onto an orange umbrella. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        android:translateX="22.2"
+        android:translateY="22.2">
+        <!-- raindrops -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M12 5c2 2.9 3 4.6 3 6.2a3 3 0 0 1 -6 0c0 -1.6 1 -3.3 3 -6.2Z" />
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M53 4c2 2.9 3 4.6 3 6.2a3 3 0 0 1 -6 0c0 -1.6 1 -3.3 3 -6.2Z" />
+        <path
+            android:fillColor="#2563EB"
+            android:pathData="M23 2.5c1.7 2.4 2.5 3.9 2.5 5.2a2.5 2.5 0 0 1 -5 0c0 -1.3 0.8 -2.8 2.5 -5.2Z" />
+        <path
+            android:fillColor="#2563EB"
+            android:pathData="M45 12c1.7 2.4 2.5 3.9 2.5 5.2a2.5 2.5 0 0 1 -5 0c0 -1.3 0.8 -2.8 2.5 -5.2Z" />
+        <!-- pole with curved handle -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M33 35v17a4.5 4.5 0 0 1 -9 0"
+            android:strokeColor="#475569"
+            android:strokeLineCap="round"
+            android:strokeWidth="3.25" />
+        <!-- canopy tip -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M33 13.5v4"
+            android:strokeColor="#475569"
+            android:strokeLineCap="round"
+            android:strokeWidth="3" />
+        <!-- canopy with scalloped edge -->
+        <path
+            android:fillColor="#EA580C"
+            android:pathData="M11 37c0 -11.6 9.8 -21 22 -21s22 9.4 22 21c-1.8 -2.9 -5.5 -2.9 -7.3 0 -1.9 -2.9 -5.5 -2.9 -7.4 0 -1.8 -2.9 -5.5 -2.9 -7.3 0 -1.9 -2.9 -5.5 -2.9 -7.4 0 -1.8 -2.9 -5.5 -2.9 -7.3 0 -1.9 -2.9 -5.5 -2.9 -7.3 0Z" />
+    </group>
+</vector>
