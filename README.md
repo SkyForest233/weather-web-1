@@ -24,13 +24,15 @@ Open-Meteo 官方的"快、免费、不废话"天气网站。本项目把它**�
 
 ## 构建
 
-**不需要电脑**：仓库的 GitHub Actions 会自动构建 APK。
+**不需要电脑**：用 GitHub Actions 云端构建 APK。首次只需用手机浏览器添加一个工作流文件(仓库已备好内容,复制粘贴即可):
 
-- **自动构建**：每次推送后，Actions 页面会自动出包；
-- **手动构建**：GitHub 网页 → **Actions** 标签 → 选 **Build Android APK** → **Run workflow**（可勾选 *Create release* 直接发布到 Releases）；
-- **下载安装**：构建完成后进入该次运行，从 **Artifacts** 下载 `Drizz-debug-APK`（zip 内含 apk），或在 **Releases** 页面直接下载 `.apk`，手机上点开安装（允许"未知来源"）。
+1. 打开 [这个链接](https://github.com/SkyForest233/weather-web-1/new/arena%2F01a06fa8-weather-web-1?filename=.github/workflows/android-build.yml)(新建文件页,文件名已预填 `.github/workflows/android-build.yml`);
+2. 再打开 [工作流内容](https://raw.githubusercontent.com/SkyForest233/weather-web-1/arena%2F01a06fa8-weather-web-1/ci/android-build.yml),全选复制,粘贴到编辑区;
+3. 点 **Commit changes** 提交。GitHub Actions 会立刻开始自动构建;
+4. 构建完成后(约 5–10 分钟),进入 Actions 该次运行 → **Artifacts** 下载 `Drizz-debug-APK`(zip 内含 apk),手机上解压后点开安装(允许"未知来源");
+5. 以后每次推送代码都会自动构建;在 Actions 页面手动 **Run workflow** 并勾选 **Create release**,APK 还会发布到 **Releases** 页,直接下载 `.apk` 即装。
 
-本地/电脑构建（可选）：
+本地/电脑构建(可选)：
 
 ```bash
 cd android
